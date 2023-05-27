@@ -19,6 +19,10 @@
   color: black;
 }
 
+.attivazione {
+  overflow: hidden;
+}
+
 .info{
   position: absolute;
   top: 40%;
