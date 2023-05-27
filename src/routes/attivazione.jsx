@@ -83,10 +83,6 @@ function Attivazione(){
         <Titolo nomePagina={"Segnalazione"} />
       </div>
 
-      <div>
-        <img src={mappa} className="mappa"></img>
-      </div>
-
       <div className="info">
         <form onSubmit={handleSubmit}>
           <input 
