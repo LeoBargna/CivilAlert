@@ -1,10 +1,15 @@
+.attivazione{
+  height: 100svh;
+  width: 100svw;
+}
+
 .mappa{
   position: absolute;
   padding: 1px;
   border: 3px solid #FF6600;
   border-radius: 15px;
   top: 12%;
-  width: 90%;
+  width: 86%;
   height: 25%;
   left: 50%;
   display: flex;
@@ -17,12 +22,14 @@
 *{
   background-color: white;
   color: black;
+  overflow: hidden;
+  
 }
 
 .info{
   position: absolute;
   top: 40%;
-  width: 90%;
+  width: 86%;
   display: flex;
   left: 50%;
   transform: translateX(-50%);

@@ -1,1 +1,17 @@
 
+.error{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 7%;
+  background: #FF5500;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

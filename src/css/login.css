@@ -3,11 +3,6 @@
   padding: 0px;
 }
 
-.Login{
-  height: 100svh;
-  width: 100svw;
-}
-
 .mainDiv{
   background: white;
   height: 100vh;
@@ -96,7 +91,7 @@
 
 .error{
   position: absolute;
-  top: 85%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 40%;
