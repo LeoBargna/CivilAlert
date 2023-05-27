@@ -162,3 +162,7 @@ select{
   left: 50%;
   transform: translateX(-50%);
 }
+
+.titolo{
+  position: fixed;
+}
