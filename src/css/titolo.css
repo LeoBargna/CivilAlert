@@ -1,0 +1,25 @@
+.titolo{
+  background-color: white;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 10%;
+  border-bottom: 2px solid #FF6600;
+}
+
+.logo{
+  position: fixed;
+  height: 6%;
+  width: 14%;
+  margin-top: 6%;
+  margin-left: 8% ;
+}
+
+.nomePagina{
+  top: 27%;
+  left: 25%;
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+}
