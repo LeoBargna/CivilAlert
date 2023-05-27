@@ -127,7 +127,7 @@
 
 .container-select{
   position: absolute;
-  margin-top: -1%;
+  margin-top: -0.5%;
   left: 37%;
 }
 
@@ -160,7 +160,7 @@ select{
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 22px;
-  margin-top: 1%;
+  margin-top: 5%;
   left: 50%;
   transform: translateX(-50%);
 }
