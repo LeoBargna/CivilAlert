@@ -8,12 +8,14 @@
 }
 
 .info{
+  overflow: -moz-hidden-unscrollable;
   position: absolute;
   top: 15%;
   width: 90%;
-  display: flex;
   left: 50%;
+  height: 50%;
   transform: translateX(-50%);
+  border: red 2px dotted;
 }
 
 .input{

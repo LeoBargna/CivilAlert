@@ -85,8 +85,7 @@ function Attivazione(){
 
       <div className="info">
         <form onSubmit={handleSubmit}>
-          <input 
-            className="input" type="text" name='indirizzo' 
+          <input className="input" type="text" name='indirizzo' 
             value={indirizzo || ""} onChange={handelChangeIndirizzo} 
             placeholder='Inserisci indirizzo...'/>
           <input className="input" type="text" name='info' 
@@ -128,6 +127,7 @@ function Attivazione(){
           <input type="submit" className="bottone" value="INVIA SEGNALAZIONE" />
         </form>
       </div>
+
       <div className="bottom-navbar">
         <NavBar home={img_home} attivazione={img_attivazione} account={img_group}/>
       </div>
