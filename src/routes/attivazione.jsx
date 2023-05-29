@@ -77,7 +77,7 @@ function Attivazione(){
 
   return(
 
-    <div className="attivazione">
+    <div className="attivazione-container">
 
       <div className="titolo">
         <Titolo nomePagina={"Segnalazione"} />

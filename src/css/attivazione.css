@@ -3,8 +3,10 @@
   color: black;
 }
 
-.attivazione {
+.attivazione-container {
   overflow: hidden;
+  height: 100svh;
+  width: 100svw;
 }
 
 .info{
