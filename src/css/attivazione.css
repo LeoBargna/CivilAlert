@@ -1,20 +1,3 @@
-.mappa{
-  overflow: hidden;
-  position: absolute;
-  padding: 1px;
-  border: 3px solid #FF6600;
-  border-radius: 15px;
-  top: 12%;
-  width: 86%;
-  height: 25%;
-  left: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: black;
-  transform: translateX(-50%);
-}
-
 *{
   background-color: white;
   color: black;
@@ -26,7 +9,7 @@
 
 .info{
   position: absolute;
-  top: 40%;
+  top: 15%;
   width: 90%;
   display: flex;
   left: 50%;
@@ -41,7 +24,8 @@
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 5px;
-  margin-bottom: 13px;
+  margin-bottom: 20px;
+  margin-top: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -63,6 +47,7 @@
   display: block;
   position: relative;
   padding-left: 35px;
+  margin-top: 8px;
   margin-bottom: 10px;
   cursor: pointer;
   -webkit-user-select: none;
@@ -123,11 +108,12 @@
 .container-legend{
   position: absolute;
   width: 37%;
+  margin-top: 9px;
 }
 
 .container-select{
   position: absolute;
-  margin-top: -0.5%;
+  margin-top: 15px;
   left: 37%;
 }
 
