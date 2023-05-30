@@ -60,7 +60,8 @@ function Attivazione(){
     // Telegram
 
     event.preventDefault();
-    const testo = "❗️ ATTENZIONE, SEGNALAZIONE IN ARRIVO   %0A📍 Punto di ritrovo: " + indirizzo + "%0A 🌋 Tipologia evento: " + tipologia + "%0A🚨 Gravità: P" + emergenza + "%0Aℹ️ Informazioni aggiuntive: " + informazioni + "%0A👉🏻 [Premi per rispondere](https://risposta-civilalert.netlify.app/?ind="+indirizzo+"&tip="+tipologia+"&eme="+emergenza+")";
+    const link = "https://risposta-civilalert.netlify.app"
+    const testo = "❗️ ATTENZIONE, SEGNALAZIONE IN ARRIVO   %0A📍 Punto di ritrovo: " + indirizzo + "%0A 🌋 Tipologia evento: " + tipologia + "%0A🚨 Gravità: P" + emergenza + "%0Aℹ️ Informazioni aggiuntive: " + informazioni + "%0A👉🏻 [Premi per rispondere]("+link+")";
   
     const token = "6169294690:AAEZ572QSuEal9kUq0dmXtz9wRlRqycbFv8";
     const canale = "@SegnalazioniPC";
