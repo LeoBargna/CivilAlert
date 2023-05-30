@@ -17,7 +17,6 @@
   left: 50%;
   height: 50%;
   transform: translateX(-50%);
-  border: red 2px dotted;
 }
 
 .input{
